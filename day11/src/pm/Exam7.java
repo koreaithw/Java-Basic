@@ -23,7 +23,7 @@ public class Exam7 {
 //		하나의 예외 처리로 해결 할 수 있다.
 //		
 //		try {
-//			System.out.println(3/1);  
+//			System.out.println(3/1);   
 //			int num = Integer.parseInt("10A");
 //		}catch(ArithmeticException | NumberFormatException e) {     
 //			System.out.println("예외가 발생했습니다");

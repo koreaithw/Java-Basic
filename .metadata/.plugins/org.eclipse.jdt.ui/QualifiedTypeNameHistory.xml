@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.io.InputStream"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="pm.MyCal"/>
 <fullyQualifiedTypeName name="pm.Calculator"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="pm.ZooKeeper"/>
+<fullyQualifiedTypeName name="pm.Crocodile"/>
+<fullyQualifiedTypeName name="pm.Leopard"/>
+<fullyQualifiedTypeName name="pm.Predator"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

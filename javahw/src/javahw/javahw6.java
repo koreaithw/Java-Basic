@@ -16,8 +16,7 @@ public class javahw6 {
 		int n;
 		for(int i=0;i<e;i++) {
 			System.out.print("a["+i+"] = ");
-			n = sc.nextInt();
-			a[i] = n;
+			a[i] = sc.nextInt();;
 		}
 		System.out.println("찾을 숫자:");
 		int fn = sc.nextInt();

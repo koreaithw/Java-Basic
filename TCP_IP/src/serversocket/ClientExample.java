@@ -1,5 +1,6 @@
 package serversocket;
 
+import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.Socket;
 
@@ -20,9 +21,7 @@ public class ClientExample {
 		if(!socket.isClosed()) {
 			try {
 				socket.close();
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
+			} catch (IOException e) {}
 		}
 	}
 }

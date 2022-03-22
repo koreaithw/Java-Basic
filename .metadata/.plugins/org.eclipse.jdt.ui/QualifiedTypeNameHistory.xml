@@ -3,7 +3,6 @@
 <fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="pm.MyCal"/>
 <fullyQualifiedTypeName name="pm.Calculator"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="pm.ZooKeeper"/>
 <fullyQualifiedTypeName name="pm.Crocodile"/>
 <fullyQualifiedTypeName name="pm.Leopard"/>
@@ -13,4 +12,7 @@
 <fullyQualifiedTypeName name="pm.Exam6_1"/>
 <fullyQualifiedTypeName name="pm.FoolException"/>
 <fullyQualifiedTypeName name="pm.MException"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
 </qualifiedTypeNameHistroy>

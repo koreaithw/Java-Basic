@@ -2,6 +2,7 @@ package data_read_write;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -36,8 +37,21 @@ public class ServerExample {
 				int readByteCount = is.read(bytes);
 				//문자열로 변환
 				message = new String(bytes, 0, readByteCount, "UTF-8");
-				System.out.println("[데이터 받기 성공]");
+				System.out.println("[데이터 받기 성공]"+message);
 				
+				OutputStream os = socket.getOutputStream();
+				message = "Hello Client";
+//				.getByues(사용되는 문자셋) 영어 한국어 등등,..
+				bytes = message.getBytes("UTF-8");
+//				OutputStream을 통해서 bytes배열을 출력함
+				os.write(bytes);
+//				데이터 내보냄
+				os.flush();
+				System.out.println("[데이터 보내기 성공]");
+				
+				is.close();
+				os.close();
+				socket.close();
 				
 			}
 		}

@@ -6,7 +6,6 @@
 <fullyQualifiedTypeName name="pm.Crocodile"/>
 <fullyQualifiedTypeName name="pm.Leopard"/>
 <fullyQualifiedTypeName name="pm.Predator"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="pm.MyException"/>
 <fullyQualifiedTypeName name="pm.Exam6_1"/>
 <fullyQualifiedTypeName name="pm.FoolException"/>
@@ -17,4 +16,7 @@
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="java.io.OutputStream"/>
 <fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="pm.MyClass"/>
+<fullyQualifiedTypeName name="pm.GenericMethods"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

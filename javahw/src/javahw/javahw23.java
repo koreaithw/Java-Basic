@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class javahw23 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		System.out.print("나이트의 위치를 입력하세요(열,행순)");
 		String location = sc.nextLine();
 		int x = location.charAt(1)-'0';
 		int y = location.charAt(0)-'a'+1;

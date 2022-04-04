@@ -14,7 +14,10 @@ class set{
 		for(int i=0;i<5;i++) {
 			hs1.add(i+3);
 		}
+		System.out.println(hs);
+		System.out.println(hs1);
 		hs.removeAll(hs1);
+		
 		return hs;
 	}
 }

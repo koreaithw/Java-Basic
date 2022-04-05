@@ -1,11 +1,21 @@
 package javahw;
 
+import java.util.Arrays;
+
 public class test5_1 {
 	public static void main(String[] args) {
-		reverse r = new reverse();
-		System.out.println(r.rev(-123));
-		System.out.println(r.rev(123));
-		System.out.println(r.rev(121));
+		int[] a1 = {7,-5,3,8,-4,11,-19,21};
+		
+		for (int i = 0; i < a1.length; i++) {
+			for (int j = i+1; j < a1.length; j++) {
+				if(a1[i]>=a1[j]) {
+					int temp=a1[i];
+					a1[i]=a1[j];
+					a1[j]=temp;
+				}
+			}
+		}
+		System.out.println(Arrays.toString(a1));
 	}
 }
 
@@ -23,7 +33,7 @@ class reverse{
 		
 		if(res==a){  //거꾸로된 숫자와 들어온 숫자가 같으면 true 반환
 			return true;
-		}            //다르면 false 반환
+		}            //다르면 false 반환 
 		return false;
 	}
 }

@@ -1,6 +1,6 @@
 package javahw;
 
-public class test5 {
+public class test5_1 {
 	public static void main(String[] args) {
 		reverse r = new reverse();
 		System.out.println(r.rev(-123));

@@ -35,17 +35,18 @@ public class javahw26 {
 		if(maze[y][x]==1) { //공간에 1이있는 경우 상하좌우 순으로 움직임.
 			count++;
 			maze[y][x]=2;
-
-			System.out.println("상실행");
-			road(x,y-1); //상
-			System.out.println("하 실행");
-			road(x,y+1); //하
+			
 			System.out.println("좌 실행");
 			road(x-1,y); //좌
+			System.out.println("상실행");
+			road(x,y-1); //상
 			System.out.println("우 실행");
 			road(x+1,y); //우
-
-
+			System.out.println("하 실행");
+			road(x,y+1); //하
+			if(road(x-1,y)==false && road(x,y-1)==false && road(x+1,y)==false && road(x,y+1)==false) {
+			
+			}
 			return true;
 
 		}else if(y==n-1 && x==m-1){

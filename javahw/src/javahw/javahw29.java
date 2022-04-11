@@ -2,7 +2,7 @@ package javahw;
 
 import java.util.Scanner;
 
-public class test29 {
+public class javahw29 {
 	
 	 public static boolean isUglyNumber(int num) {
 	      boolean x = true;  //어글리 넘버인지 맞으면 true
